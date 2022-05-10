@@ -170,18 +170,47 @@ hr {
     margin: auto;
 }
 
-.contact-button {
+
+/* .contact-button {
     margin: auto;
     border-radius: 5pt;
     width: 150px;
     height: 41px;
     color: #E8630A;
     background-color: #E8630A;
-}
+} */
+
+
+/* .btn {
+    color: azure;
+    /* margin: auto; 
+}    */
 
 .btn {
-    color: azure;
-    /* margin: auto; */
+    background: #E8630A;
+    background-image: -webkit-linear-gradient(top, #E8630A, #FFAA4C);
+    background-image: -moz-linear-gradient(top, #E8630A, #FFAA4C);
+    background-image: -ms-linear-gradient(top, #E8630A, #FFAA4C);
+    background-image: -o-linear-gradient(top, #E8630A, #FFAA4C);
+    background-image: linear-gradient(to bottom, #E8630A, #FFAA4C);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #FFAA4C;
+    background-image: -webkit-linear-gradient(top, #FFAA4C, #e8e161);
+    background-image: -moz-linear-gradient(top, #FFAA4C, #e8e161);
+    background-image: -ms-linear-gradient(top, #FFAA4C, #e8e161);
+    background-image: -o-linear-gradient(top, #FFAA4C, #e8e161);
+    background-image: linear-gradient(to bottom, #FFAA4C, #e8e161);
+    text-decoration: none;
 }
 
 .footer-link {
